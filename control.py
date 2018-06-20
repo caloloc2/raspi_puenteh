@@ -2,7 +2,7 @@
 # import RPi.GPIO as GPIO
 import time
 # GPIO.setmode(GPIO.BCM)
-# GPIO.setup(2, GPIO.OUT) ## GPIO 2 como salida
+# GPIO.setup(2, GPIO.OUT) ## GPIO 2 como salidagit 
 
 def lectura():
 	archivo = open("php/valores.ph", "r") 
