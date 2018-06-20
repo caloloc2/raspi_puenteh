@@ -1,0 +1,71 @@
+@import "icomoon.styl"
+
+dark_primary = #00796B
+light_primary = #B2DFDB
+primary = #009688
+text = #FFFFFF
+accent = #FF5252
+primary_text = #212121
+secondary_text = #757575
+divider = #BDBDBD
+
+*
+	margin 0
+	padding 0
+	font-family 'Arial'
+
+a 
+	text-decoration none
+
+ol, ul
+	list-style none
+
+body
+	
+	header
+		background dark_primary
+		border-bottom 1px solid rgba(0,0,0,0.1)
+		padding 1.5em 3em
+		text-align center
+		-webkit-box-shadow 0px 0px 19px -1px rgba(0,0,0,0.64)
+		-moz-box-shadow 0px 0px 19px -1px rgba(0,0,0,0.64)
+		box-shadow 0px 0px 19px -1px rgba(0,0,0,0.64)
+		
+		h1 
+			color white
+			font-size 30px
+			
+	.linea
+		width 400px
+		margin 0 auto
+		padding 1em 0
+		text-align center
+		
+		.item
+			display inline-block
+			vertical-align middle
+			border 1px solid rgba(0,0,0,0.1)
+			background green
+			border-radius 50%
+			padding 0.7em 0.7em 0.6em 0.7em
+			margin 0 0.2em
+			color white
+			font-size 35px
+			-ms-transform: rotate(0deg);
+		    -webkit-transform: rotate(0deg);
+		    transform: rotate(0deg);
+		
+		.gris
+			background #555		
+
+	#logo
+		position fixed
+		bottom 10px
+		width 100%
+		
+		figure 
+			width 250px 
+			margin 0 auto
+			
+			img 
+				width 100%
