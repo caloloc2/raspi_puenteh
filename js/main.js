@@ -30,7 +30,8 @@ function Guarda_Valor(valor){
 			valor: valor
 		},
 		type: "POST",
-		dataType: 'json',		
+		dataType: 'json',
+		async: false,
 		success: function(datos) {			
 			console.log(datos);
 		},
